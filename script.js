@@ -30,12 +30,13 @@ async function searchQuery(){
 //showing image if error comes
 function handleError(){
     const err = document.querySelector(".error");
+    err.innerHTML= ``;
     const img = document.createElement('img');
     img.src = "images/error log.png";
     img.alt = "Something Went Wrong";
-    img.id =`${id}error-img`;
+    // img.id =`${id}error-img`;
     err.appendChild(img);
-    id++;
+    // id++;
     buffer.classList.add('hide');
     document.querySelector('main').appendChild(err);
     // error_count=1;
@@ -83,3 +84,5 @@ function makeMovieCards(movies){
     }
     // adding eventlistener in search-btn
     btn.addEventListener("click",searchQuery);
+
+    

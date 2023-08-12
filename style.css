@@ -125,7 +125,7 @@ body::-webkit-scrollbar{
     flex-direction: column;
     color: white;
     width: 21vw;
-    height: 474px;
+    height: 74vh;
     /* border: 2px solid red; */
     align-items: center;
     margin-bottom: 20px;
@@ -144,7 +144,7 @@ body::-webkit-scrollbar{
 }
 .poster >img{
     width: 275px;
-    height: 302px;
+    height: 50vh;
 }
 .low{
     position: relative;
